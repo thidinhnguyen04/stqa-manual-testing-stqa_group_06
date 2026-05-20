@@ -8,7 +8,7 @@
 
 | Mục | Thông tin |
 |-----|----------|
-| **Nhóm** | STQA_group_06 |
+| **Nhóm** | STQA_Group_06 |
 | **Lớp** | 252ICT2012.L1 |
 | **Ngày báo cáo** | 19/05/2026 |
 | **Hệ thống kiểm thử** | https://stqa.rbc.vn — v1.0 |

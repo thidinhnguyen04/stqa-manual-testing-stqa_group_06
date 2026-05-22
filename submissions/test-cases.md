@@ -121,10 +121,8 @@
 | TC-12 | Search without Vietnamese accents | Logged in | Search book | “lap trinh flutter” | List displays BOOK001 "Lập trình Flutter cơ bản" | REQ-03 | EP |
 | TC-13 | Borrow book successfully | Logged in with Active member, Available book | Select Borrow | MEM001 + BOOK001 | Borrow successfully | REQ-04 | EP |
 | TC-14 | Reject borrowing already Borrowed book | BOOK003 is currently borrowed | Borrow BOOK003 | MEM001 + BOOK003 | Reject borrowing | REQ-04 | EP |
-| TC-15 | Borrow 3rd book | Member has borrowed 2 books | Click "Borrow" on BOOK005 "Trí tuệ nhân tạo đại cương" | Books borrowed before test: 2
-Test borrow book: BOOK005 | Borrow successfully | REQ-04 | BVA |
-| TC-16 | Borrow 4th book | Member MEM006 borrow 3 books BOOK001, BOOK002, BOOK005 | Click "Borrow" on BOOK008 "Mạng máy tính" | Books borrowed before test: 3
-Test borrow book: BOOK008 | Display message: "Maximum borrow limit reached (3 books)" | REQ-04 | EP |
+| TC-15 | Borrow 3rd book | Member has borrowed 2 books | Click "Borrow" on BOOK005 "Trí tuệ nhân tạo đại cương" | Books borrowed before test: 2 Test borrow book: BOOK005 | Borrow successfully | REQ-04 | BVA |
+| TC-16 | Borrow 4th book | Member MEM006 borrow 3 books BOOK001, BOOK002, BOOK005 | Click "Borrow" on BOOK008 "Mạng máy tính" | Books borrowed before test: 3 Test borrow book: BOOK008 | Display message: "Maximum borrow limit reached (3 books)" | REQ-04 | EP |
 | TC-17 | Borrow book after session timeout | Session expired | Borrow book | BOOK001 | User is redirected to login page | REQ-04 | Security Testing |
 | TC-18 | Check member status (Expired) | Member, Available book | Borrow book | Member expired | Notify member account expired | REQ-04 | EP |
 | TC-19 | Check member status (Suspended) | Member, Available book | Borrow book | Member suspended | Notify member account suspended | REQ-04 | EP |

@@ -1,4 +1,4 @@
-# Test Execution — Kết quả thực thi kiểm thử
+<img width="2435" height="1600" alt="image" src="https://github.com/user-attachments/assets/2f3e5da9-ecb9-4059-9749-3340f4c12aec" /># Test Execution — Kết quả thực thi kiểm thử
 
 > **Hướng dẫn**: Chạy từng TC trên hệ thống https://stqa.rbc.vn, ghi lại kết quả thực tế.
 > Kết luận: **Pass** (kết quả đúng), **Fail** (kết quả sai → tạo bug report), **Blocked** (không thực hiện được vì lỗi khác chặn), **Not Run** (chưa chạy).
@@ -16,7 +16,8 @@
 
 | TC ID | Functional Group | Expected Result (Summary) | Actual Result | Conclusion | Evidence | Bug |
 |---|---|---|---|---|---|---|
-| TC-01 | Login | User logs in successfully with valid credentials | Login successful and dashboard displayed | Pass | Screenshot of dashboard after login | None |
+| TC-01 | Login | User logs in successfully with valid credentials | Login successful and dashboard displayed | Pass | <img width="2435" height="1600" alt="image" src="https://github.com/user-attachments/assets/7b3eab0a-11a3-424d-8a8d-dc5aa68ef0ba" />
+ | None |
 | TC-02 | Login | Display "Member not found" message | Correct error message displayed | Pass | Screenshot of error message | None |
 | TC-03 | Login | Display "Incorrect password" message | Correct error message displayed | Pass | Screenshot of error message | None |
 | TC-04 | Login Validation | Display validation for empty fields | Validation message displayed correctly | Pass | Screenshot of validation popup/message | None |
